@@ -56,6 +56,7 @@
 
         .nav-links a:hover {
             background-color: rgba(255, 255, 255, 0.2);
+            color: #bbc8ff;
         }
 
         /* Secțiunea principală */
@@ -139,6 +140,7 @@
 
         .cta-button:hover {
             transform: translateY(-2px);
+            transition: 0.5s;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
@@ -168,33 +170,9 @@
             text-decoration: none;
             line-height: 1.8;
         }
-
-        .footer-section a:hover {
-            color: white;
-        }
-
+        
         .footer-bottom {
             border-top: 1px solid #555;
             padding-top: 20px;
             color: #999;
-        }
-
-        /* Responsiv pentru mobile */
-        @media (max-width: 768px) {
-            .nav-links {
-                gap: 15px;
-            }
-
-            .hero h1 {
-                font-size: 2rem;
-            }
-
-            .hero p {
-                font-size: 1rem;
-            }
-
-            .nav-links a {
-                padding: 8px 10px;
-                font-size: 0.9rem;
-            }
         }
