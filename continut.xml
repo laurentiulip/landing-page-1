@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+    <titlu>TechFuture</titlu>
+    
+    <meniu>
+        <item>Acasă</item>
+        <item>Servicii</item>
+        <item>Contact</item>
+    </meniu>
+
+    <sectiuni>
+        <sectiune id="acasa">
+            <titlu_secundar>Tehnologia Viitorului Este Aici</titlu_secundar>
+            <paragraf>Descoperă cele mai noi inovații tehnologice care transformă lumea în care trăim. De la inteligența artificială la realitatea virtuală - explorează viitorul împreună cu noi.</paragraf>
+        </sectiune>
+
+        <sectiune id="servicii">
+            <titlu_secundar>Servicii</titlu_secundar>
+
+            <serviciu>
+                <titlu>Inteligență Artificială</titlu>
+                <paragraf>Dezvoltăm soluții AI avansate care automatizează procesele de business și îmbunătățesc experiența utilizatorilor. De la chatboți la sisteme de recunoaștere, tehnologia AI transformă modul în care interacționăm cu lumea digitală.</paragraf>
+            </serviciu>
+
+            <serviciu>
+                <titlu>Dezvoltare Web</titlu>
+                <paragraf>Creăm site-uri web moderne și aplicații responsive care funcționează perfect pe toate dispozitivele. Folosim cele mai noi tehnologii pentru a oferi performanțe excepționale și design atractiv.</paragraf>
+            </serviciu>
+
+            <serviciu>
+                <titlu>Cloud Computing</titlu>
+                <paragraf>Baza de date este elementul central al oricărei aplicații moderne, permițând stocarea, organizarea și accesarea eficientă a informațiilor. O gestionare corectă a datelor asigură performanță, securitate și continuitate pentru orice afacere sau sistem digital.</paragraf>
+            </serviciu>
+        </sectiune>
+
+        <sectiune id="contact">
+            <titlu_secundar>Contact</titlu_secundar>
+            <paragraf>Email: contact@techfuture.ro</paragraf>
+            <paragraf>Telefon: +373 123 456 789</paragraf>
+            <paragraf>Locație: Moldova</paragraf>
+        </sectiune>
+    </sectiuni>
+</site>
