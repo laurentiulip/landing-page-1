@@ -22,6 +22,10 @@ a {
     padding: 0 20px;
 }
 
+.tag a {
+    color: black;
+}
+
 header {
     background: #667eea;
     color: #fff;
@@ -73,6 +77,28 @@ nav {
     color: #666;
     max-width: 600px;
 }
+.usage-steps {
+    background: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.usage-steps h2 {
+    color: #667eea;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.usage-steps ol {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.8;
+}
+
 
 .tech-image {
     max-width: 100%;
@@ -114,14 +140,49 @@ nav {
 }
 
 .cta-button {
-    display: inline-block;
+    display: block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
     background: #667eea;
     color: #fff;
     padding: 15px 30px;
     border-radius: 25px;
+    font-weight: bold; 
+    margin: 0 auto;
+    line-height: 50px auto;
+}
+
+.terminologie {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.terminologie h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #667eea;
+    margin-bottom: 40px;
+}
+
+.terminologie dl {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.terminologie dt {
     font-weight: bold;
-    margin-top: 30px;
-    transition: transform 0.3s;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+.terminologie dd {
+    margin-left: 20px;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
 }
 
 footer {
