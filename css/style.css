@@ -8,7 +8,6 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background: #f4f4f4;
 }
 
 a {
@@ -64,6 +63,19 @@ nav {
     background: #fff;
     padding: 80px 0;
     text-align: center;
+}
+
+.youtube {
+    display:grid;
+    place-items:center;
+    margin-top: 10px;
+    
+}
+
+.maps {
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
 }
 
 .hero h1 {
@@ -149,7 +161,7 @@ nav {
     padding: 15px 30px;
     border-radius: 25px;
     font-weight: bold; 
-    margin: 0 auto;
+    margin: 10px auto;
     line-height: 50px auto;
 }
 
@@ -202,6 +214,46 @@ footer {
 .footer-section h4 {
     margin-bottom: 15px;
     color: #667eea;
+}
+
+.footer-content form {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.footer-content form input[type="text"],
+.footer-content form input[type="email"],
+.footer-content form textarea {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 14px;
+  resize: vertical;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-content form textarea {
+  min-height: 80px;
+}
+
+.footer-content form button {
+  padding: 10px;
+  background-color: #0073e6;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.footer-content form button:hover {
+  background-color: #005bb5;
 }
 
 .footer-section p,
